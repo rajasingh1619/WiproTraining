@@ -1,77 +1,60 @@
 # WiproTraining
-import java.time.LocalDate;
-public class Person {
-	private Long adharCard;
-	private String name;
-	private LocalDate birthdate;
-	private Address temporaryAddress;
-	private Address permanentAddress;
+public class Address {
+	private String doorNumber;
+	private String street;
+	private String locality;
+	private String city;
+	private Long pincode;
 	
 	
-	public Person() {
+	public Address() {
 		
 	}
-	public Person(Long adharCard, String name, LocalDate birthdate, Address temporaryAddress,
-			Address permanentAddress) {
+	public Address(String doorNumber, String street, String locality, String city, Long pincode) {
 		super();
-		this.adharCard = adharCard;
-		this.name = name;
-		this.birthdate = birthdate;
-		this.temporaryAddress = temporaryAddress;
-		this.permanentAddress = permanentAddress;
+		this.doorNumber = doorNumber;
+		this.street = street;
+		this.locality = locality;
+		this.city = city;
+		this.pincode = pincode;
 	}
-	
-	
-	public Person(Long adharCard, String name, String birthdate, Address temporaryAddress,
-			Address permanentAddress) {
-		super();
-		this.adharCard = adharCard;
-		this.name = name;
-		this.birthdate = LocalDate.parse(birthdate);
-		this.temporaryAddress = temporaryAddress;
-		this.permanentAddress = permanentAddress;
+	public String getDoorNumber() {
+		return doorNumber;
 	}
-	public Long getAdharCard() {
-		return adharCard;
+	public void setDoorNumber(String doorNumber) {
+		this.doorNumber = doorNumber;
 	}
-	public void setAdharCard(Long adharCard) {
-		this.adharCard = adharCard;
+	public String getStreet() {
+		return street;
 	}
-	public String getName() {
-		return name;
+	public void setStreet(String street) {
+		this.street = street;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public String getLocality() {
+		return locality;
 	}
-	public LocalDate getBirthdate() {
-		return birthdate;
+	public void setLocality(String locality) {
+		this.locality = locality;
 	}
-	public void setBirthdate(LocalDate birthdate) {
-		this.birthdate = birthdate;
+	public String getCity() {
+		return city;
 	}
-	public void setCustomBirthdate(String birthdate) {
-		this.birthdate = LocalDate.parse(birthdate);
+	public void setCity(String city) {
+		this.city = city;
 	}
-	public Address getTemporaryAddress() {
-		return temporaryAddress;
+	public Long getPincode() {
+		return pincode;
 	}
-	public void setTemporaryAddress(Address temporaryAddress) {
-		this.temporaryAddress = temporaryAddress;
-	}
-	public Address getPermanentAddress() {
-		return permanentAddress;
-	}
-	public void setPermanentAddress(Address permanentAddress) {
-		this.permanentAddress = permanentAddress;
+	public void setPincode(Long pincode) {
+		this.pincode = pincode;
 	}
 	@Override
 	public String toString() {
-		return "Person [adharCard=" + adharCard + ", name=" + name + ", birthdate=" + birthdate + ", temporaryAddress="
-				+ temporaryAddress + ", permanentAddress=" + permanentAddress + "]";
+		return "Address [doorNumber=" + doorNumber + ", street=" + street + ", locality=" + locality + ", city=" + city
+				+ ", pincode=" + pincode + "]";
 	}
 	
 	
 	
 	
 }
-
