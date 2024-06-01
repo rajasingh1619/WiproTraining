@@ -1,60 +1,18 @@
 # WiproTraining
-public class Address {
-	private String doorNumber;
-	private String street;
-	private String locality;
-	private String city;
-	private Long pincode;
-	
-	
-	public Address() {
-		
-	}
-	public Address(String doorNumber, String street, String locality, String city, Long pincode) {
-		super();
-		this.doorNumber = doorNumber;
-		this.street = street;
-		this.locality = locality;
-		this.city = city;
-		this.pincode = pincode;
-	}
-	public String getDoorNumber() {
-		return doorNumber;
-	}
-	public void setDoorNumber(String doorNumber) {
-		this.doorNumber = doorNumber;
-	}
-	public String getStreet() {
-		return street;
-	}
-	public void setStreet(String street) {
-		this.street = street;
-	}
-	public String getLocality() {
-		return locality;
-	}
-	public void setLocality(String locality) {
-		this.locality = locality;
-	}
-	public String getCity() {
-		return city;
-	}
-	public void setCity(String city) {
-		this.city = city;
-	}
-	public Long getPincode() {
-		return pincode;
-	}
-	public void setPincode(Long pincode) {
-		this.pincode = pincode;
-	}
-	@Override
-	public String toString() {
-		return "Address [doorNumber=" + doorNumber + ", street=" + street + ", locality=" + locality + ", city=" + city
-				+ ", pincode=" + pincode + "]";
-	}
-	
-	
-	
-	
-}
+<bean class="in.sp.beans.Student" id="stdId1">
+
+<property name="name" value="Deepak" />
+
+<property name="rollno" 31ue =^ prime prime 101^ prime prime />
+
+<property name="email" value="deepak@gmail.com" />
+
+</bean>
+
+<bean class="in.sp.beans.Student" id="stdId2">
+
+<property name="name" value="Amit" /> <property name="rollno" value=" 102 "/>
+
+<property name="email" value="amit@gmail.com co m^ prime prime />
+
+</bean>
