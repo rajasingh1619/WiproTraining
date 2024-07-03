@@ -1,0 +1,328 @@
+
+Name:Raja Kumar Singh
+Batch : NMS (Java)
+------------------------
+
+
+1) Which of these protocol is used in 5G
+   a) HTTP/2 
+   b) Diameter
+   c) RADIUS
+   d) All of the above
+
+Ans:HTTP/2 
+ 
+2) What is true about 5G
+   a) 5G provides very low speed to UE
+   b) 5G supports diameter protocol
+   c) 5G has Service Based Architecture
+   d) 5G is Voice only network
+
+Ans:5G has Service Based Architecture
+
+3) What does S-NSSAI (slice) stands for
+   a) Non Stratus Signalling Access Identity
+   b) Non Standalone Signal Identifier
+   c) Single-Network Slice Selection Identifier
+   d) None of the above
+
+Ans:Single-Network Slice Selection Identifier
+
+4) What is SBA in 5G
+   a) Service Based Architecture 
+   b) Scenario Based Architecture
+   c) Signal Based Access
+   d) None of these
+
+Ans:Service Based Architecture 
+
+5) Which of these nodes is not a part of 5G Architecture
+   a) AMF 
+   b) SMF
+   c) UPF
+   d) HSS
+
+Ans:HSS
+
+6) Which of these 3GPP release defines 5G Framework
+   a) Release 10
+   b) Release 9
+   c) Release 15
+   d) Release 13
+
+Ans:Release 15
+ 
+7) Which NF is responsible for handling charging in 5G
+   a) PCF
+   b) CHF
+   c) AMF
+   d) SMF
+
+Ans:CHF
+ 
+8) Which NF is responsible for User Authentication
+   a) PCF
+   b) AUSF
+   c) UDR
+   d) SMF
+
+Ans: AUSF
+ 
+9) What is the uplink/downlink speed supported by 5G network
+   a) upto 10Gbps
+   b) 1Mbps
+   c) 100Mbps
+   d) 384Kbps
+
+Ans:upto 10Gbps
+ 
+10) Which NF is used for storage of subscription and policy data
+   a) AMF
+   b) UDR
+   c) NEF
+   d) UPF
+
+Ans:UDR
+ 
+11) Which of these is NSA deployment option
+   a) Option 3
+   b) Option 2
+   c) Option 4
+   d) None of these
+
+Ans:Option 3
+ 
+12) How many Network Slices a user can simultaneously connect to 
+   a) 8
+   b) 2
+   c) 5
+   d) 7
+
+Ans:8
+ 
+13) Which node is similar to UDM in 4G
+   a) PCRF
+   b) HSS
+   c) MME
+   d) SGW
+
+Ans:HSS
+ 
+14) S-NSSAI consists of 
+   a) SST and SD
+   b) SST only
+   c) SD only
+   d) None of these
+
+Ans:SST and SD
+
+15) Which of these node maintains network topology in 5G
+   a) CHF
+   b) UPF
+   c) NRF
+   d) UDM
+
+Ans:NRF
+
+16) Which of these 5G node provides inter-plmn security 
+   a) SCP
+   b) SEPP
+   c) SMF
+   d) NEF
+
+Ans:SEPP
+ 
+17) What is AVP in Diameter 
+   a) Attribute Value Pair
+   b) Additional Value Pair
+   c) Additional Variable Pair
+   d) None of these
+
+Ans:Attribute Value Pair
+ 
+18) Which of these nodes uses Diameter Protocol
+   a) HSS
+   b) MME
+   c) PCRF
+   d) All of the above
+
+Ans: All of the above
+ 
+19) What does flag 'R" represents in Diameter Header message
+   a) Request
+   b) Reset
+   c) Retransmit
+   d) Retry
+
+Ans:Request
+ 
+20) Which of these is the first Diameter message that flows between two nodes
+   a) CER
+   b) WDR
+   c) CCR
+   d) RAR
+
+Ans:CER
+ 
+21) Which of these is the mandatory AVP in Diameter
+   a) Origin Hostname
+   b) Origin Realm
+   c) Destination Hostname
+   d) All of the above
+
+Ans:Origin Hostname
+    Origin Realm
+ 
+22) What is CUPS?
+   a) Control-User Plane Separation
+   b) Control-User Plane Segregation
+   c) Control-User Plane Sharing
+   d) None of these
+
+Ans:Control-User Plane Separation
+ 
+23) Can 5G network support Voice services?
+   a) No, it does not support
+   b) Yes, it can support
+
+Ans:Yes, it can support
+
+ 
+24) Which NF is responsible for allocation IP to UE
+   a) AMF
+   b) SMF
+   c) UPF
+   d) PCRF
+
+Ans:SMF
+
+25) Which NF acts as gateway to External world
+   a) NRF
+   b) NEF
+   c) NWDAF
+   d) PCF
+
+Ans:NEF
+ 
+26) Which interface is used for communication between AMF and MME
+   a) N26
+   b) N10
+   c) N8
+   d) N1
+
+Ans:N26
+ 
+27) SMF is a combination of which of these 4G nodes
+   a) PGW-C and PGW-U
+   b) SGW-C and SGW-U
+   c) MME, SGW-C and PGW-C
+   d) PGW-U and SGW-U
+
+Ans:MME, SGW-C and PGW-C
+ 
+28) Which of these provides NF discovery functionality
+   a) NEF
+   b) NRF
+   c) UPF
+   d) SMF
+
+Ans:NRF
+ 
+29) Which of these service are supported by 5G network
+   a) eMBB
+   b) URLLC
+   c) MTC
+   d) All of these
+
+Ans:All of these
+
+30) Which of these are the characteristics of Ultra-reliable low latency communication
+   a) low latency
+   b) high latency
+   c) high device density
+   d) very low speed
+
+Ans:low latency
+ 
+31) Which NF provides charging service in 5G
+   a) PCF
+   b) UDM
+   c) UDR
+   d) CHF
+
+Ans:PCF
+ 
+32) Which rules are installed by SMF in UPF using PFCP protocol
+   a) PDR
+   b) FAR
+   c) QER
+   d) All of these
+
+Ans:All of these
+ 
+33) Which 4G node provides same functionality as SCP 
+   a) DRA
+   b) DEA
+   c) HSS
+   d) None of these
+
+Ans:HSS
+ 
+34) Which node in 5G uses RADIUS protocol
+   a) AMF
+   b) SMF
+   c) UDR
+   d) None of these
+
+Ans:None of these
+ 
+35) What is true about RADIUS protocol
+   a) It uses TCP
+   b) It does not use UDP 
+   c) It provides AAA service
+   d) None of these
+
+Ans:It provides AAA service
+
+36) What is true about HTTP/2?
+   a) It is based on TCP
+   b) It is based on UDP
+   c) Both of these
+   d) None of these
+
+Ans:It is based on TCP
+ 
+37) What does SUPI represent in 5G
+   a) Same as MSISDN in 4G
+   b) Same as IMSI in 4G
+   c) Same as IMEI in 4G
+   d) None of these
+
+Ans:Same as IMSI in 4G
+ 
+38) Which procedure allocates IP to UE in 5G
+   a) Registration
+   b) PDU session establishment
+   c) Intra RAT HO
+   d) All of these
+
+Ans:PDU session establishment
+ 
+39) What is SUCI?
+   a) Encrypted SUPI
+   b) Same as MSISDN
+   c) Same as IMEI
+   d) Same as DNN
+
+Ans:Encrypted SUPI
+ 
+40) Name the interface between gNodeB and UPF
+   a) N3
+   b) N10
+   c) N8
+   d) N1
+
+Ans:N3
+
+ 
+ 
